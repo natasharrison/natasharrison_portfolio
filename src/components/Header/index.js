@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from "../../assests/cover/cover-image.jpg";
+import coverImage from "../../assets/cover/cover-image.jpg";
 import Nav from "../Nav";
 
 const Header = () => {
