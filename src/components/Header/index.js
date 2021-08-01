@@ -1,12 +1,10 @@
 import React from 'react';
-import coverImage from "../../assets/cover/cover-image.jpg";
 import Nav from "../Nav";
 
 const Header = () => {
     return (
-        <div>
-            <img src={coverImage} style={{ width: "100%" }} alt="cover" />
-            <h1>Natasha Harrison</h1>
+        <div className="Header">
+            <h1 className="Header-name">Natasha Harrison</h1>
             <p>Developer</p>
         <Nav></Nav>
         </div>

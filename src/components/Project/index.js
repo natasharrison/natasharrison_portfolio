@@ -1,25 +1,21 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from "../../assets/projects/budget-tracker200x200.jpg";
+import ProjectList from '../ProjectList';
 
-function Project(props) {
+function Project() {
     
-    const currentProject = {
-        name: "food-fest", 
-        description: "pwas",
-    };
+    // const { name, description } = currentProject;
+
+    // const currentProject = {
+    //     name: "food-fest", 
+    //     description: "pwas",
+    // };
     
     return (
         <section>
-            <h1> {capitalizeFirstLetter(currentProject.name)} </h1>
-            <p> {currentProject.description} </p>
-            <div className="flex-row">
-                <img 
-                src={photo} 
-                alt = "project screenshot"
-                className = 'img-thumbnail mx-1'
-                />
-            </div>
+            <h1> Natasha </h1>
+            <p> description </p>
+            <ProjectList />
         </section>
     );
 }

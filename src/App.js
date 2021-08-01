@@ -1,9 +1,10 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import './index.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Project from './components/Project';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Project></Project>
         <About></About>
+        <Contact></Contact>
       </main>
       <Footer></Footer>
     </div>
