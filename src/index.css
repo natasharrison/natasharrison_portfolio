@@ -117,7 +117,8 @@ li {
   color: var(--primary-color);
 }
 
-.Contact input:hover {
+.Contact input:hover,
+textarea:hover {
   background-color: var(--primary-color);
   color: #fff;
 }
