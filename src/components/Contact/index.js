@@ -34,9 +34,9 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className="Contact" id="contact">
       <h1 data-testid="h1tag">Contact me</h1>
-      <p> 520.245.1509 | natasharrison@gmail.com </p>
+      <p> 520.245.1509 | <a href="mailto://natasharrison@gmail.com"> natasharrison@gmail.com </a></p>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

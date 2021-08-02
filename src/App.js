@@ -10,6 +10,8 @@ function App() {
   return (
     <div>
       <Header></Header>
+      {/* navigation is within the header element */}
+      <section className="Hero"></section>
       <main>
         <Project></Project>
         <About></About>

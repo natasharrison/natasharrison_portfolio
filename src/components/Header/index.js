@@ -3,11 +3,10 @@ import Nav from "../Nav";
 
 const Header = () => {
     return (
-        <div className="Header">
-            <h1 className="Header-name">Natasha Harrison</h1>
-            <p>Developer</p>
-        <Nav></Nav>
-        </div>
+        <header>
+            <h1 className="Header"> Natasha Harrison </h1>
+            <Nav></Nav>
+        </header>
     )
 }
 
