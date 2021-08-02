@@ -16,11 +16,17 @@ Any and all feedback from users is appreciated!
 - Create React App
 
 ## Website 
-[GitHib] https://github.com/natasharrison/react-portfolio.git
-![Screenshot] 
+[GitHub](https://github.com/natasharrison/react-portfolio.git)
+
+![Screenshot](src\assets\screenshot\screenshot.JPG)
+
+[Deployment](http://natasharrison.github.io/react-portfolio)
 
 ## Contribution 
 - Made by Natasha Harrison
 
 ## Future Tasks
-- [] updated resume 
+- [ ] updated resume
+- [ ] downloadable resume 
+- [ ] six projects with screenshots, descriptions and links to deployed apps
+- [ ] have navigation take you to selected section 
