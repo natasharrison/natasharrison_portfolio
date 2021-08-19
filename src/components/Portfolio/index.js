@@ -2,7 +2,7 @@ import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import ProjectList from '../ProjectList';
 
-function Project() {
+function Portfolio() {
     
     // const { name, description } = currentProject;
 
@@ -20,4 +20,4 @@ function Project() {
     );
 }
 
-export default Project; 
+export default Portfolio; 
