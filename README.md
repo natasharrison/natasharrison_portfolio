@@ -1,4 +1,4 @@
-# Natasha Harrison Portfolio
+# Natasha Harrison Murata Portfolio
 
 ## Description
 
@@ -21,13 +21,13 @@ Any and all feedback from users is appreciated!
 
 [GitHub](https://github.com/natasharrison/react-portfolio.git)
 
-![Screenshot](src\assets\screenshot\screenshot.JPG)
+![screenshot](src\assets\screenshot\screenshot.JPG)
 
 [Deployment](http://natasharrison.github.io/react-portfolio)
 
-## Contribution
+## Credit
 
-- Made by Natasha Harrison
+- Natasha Harrison Murata [@natasharrison](https://github.com/natasharrison)
 
 ## Future Tasks
 
