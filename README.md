@@ -21,7 +21,7 @@ Any and all feedback from users is appreciated!
 
 [GitHub](https://github.com/natasharrison/react-portfolio.git)
 
-![screenshot](src\assets\screenshot\screenshot.JPG)
+! [screenshot](src\assets\screenshot\screenshot.JPG)
 
 [Deployment](http://natasharrison.github.io/react-portfolio)
 
