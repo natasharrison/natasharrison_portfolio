@@ -12,12 +12,13 @@ function Resume(){
 
     return (
         <div>
-            <Document
+            {/* <Document
             file="Resume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
             >
                 <Page pageNumber={pageNumber} />
-            </Document>
+            </Document> */}
+            <a href "https://docs.google.com/document/d/1wAeLwdceXf-gyBrSJFEzDKVKCNco6AbIzFc1QniDT-o/edit?usp=sharing"></a>
         </div>
     );
 }
