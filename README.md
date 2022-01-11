@@ -19,11 +19,11 @@ Any and all feedback from users is appreciated!
 
 ## Website
 
-[GitHub](https://github.com/natasharrison/react-portfolio.git)
+[GitHub](https://github.com/natasharrison/natasharrison_portfolio.git)
 
 ![screenshot](./src/assets/screenshot/screenshot.JPG)
 
-[Deployment](http://natasharrison.github.io/react-portfolio)
+[deployed](https://natasharrison.github.io/natasharrison_portfolio/)
 
 ## Credit
 

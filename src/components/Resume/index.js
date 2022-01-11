@@ -18,7 +18,7 @@ function Resume(){
             >
                 <Page pageNumber={pageNumber} />
             </Document> */}
-            <a href "https://docs.google.com/document/d/1wAeLwdceXf-gyBrSJFEzDKVKCNco6AbIzFc1QniDT-o/edit?usp=sharing"></a>
+            <a href = "https://docs.google.com/document/d/1wAeLwdceXf-gyBrSJFEzDKVKCNco6AbIzFc1QniDT-o/edit?usp=sharing"></a>
         </div>
     );
 }
