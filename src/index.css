@@ -12,6 +12,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  background-image: url("./assets/cover/cover-image.jpg");
+  background-repeat: no-repeat;
 }
 
 header {
@@ -21,12 +23,12 @@ header {
   flex-wrap: wrap;
   position: sticky;
   top: 0;
-  background-image: url("./assets/cover/cover-image.jpg");
+  /* background-image: url("./assets/cover/cover-image.jpg"); */
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
   z-index: 9999;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .Header {
@@ -52,9 +54,9 @@ li {
   list-style: none;
 }
 
-.Hero {
-  background-image: url("./assets/cover/cover-image.jpg");
-  background-repeat: no-repeat;
+/* .Hero { */
+  /* background-image: url("./assets/cover/cover-image.jpg"); */
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 80%;
   height: 800px;
@@ -62,27 +64,24 @@ li {
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
-}
+}  */
 
 .About {
   background-color: var(--secondary-color);
   color: #fff;
-  margin: 50px auto;
+  /* margin: 50px auto;
   padding: 20px;
-  width: 80%;
+  width: 80%; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border: 30px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px #0d3827;
 }
 
-.About-Content {
+/* .About-Content {
   width: 60%;
   padding: 20px;
-}
+} */
 
 .Headshot {
   border-radius: 10px;

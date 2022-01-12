@@ -28,11 +28,3 @@ Any and all feedback from users is appreciated!
 ## Credit
 
 - Natasha Harrison Murata [@natasharrison](https://github.com/natasharrison)
-
-## Future Tasks
-
-- [ ] updated resume
-- [ ] downloadable resume
-- [ ] six projects with screenshots, descriptions and links to deployed apps
-- [ ] have navigation take you to selected section
-- [ ] ask opinion on scrolling feature of hero image
