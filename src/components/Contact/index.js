@@ -1,62 +1,26 @@
-import React, {useState} from 'react';
+import React from 'react';
+import email from '../../assets/icons/email.jpg';
+import github from '../../assets/icons/github.jpg';
+import linkedin from '../../assets/icons/linkedin.jpg';
+import location from '../../assets/icons/location.jpg';
+import phone from '../../assets/icons/phone.jpg';
+import twitter from '../../assets/icons/twitter.jpg';
 
-import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
-    }
-  };
-
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-  };
-
   return (
     <section className="Contact" id="contact">
-      <h1 data-testid="h1tag">Contact me</h1>
-      <p> 520.245.1509 | <a href="mailto://natasharrison@gmail.com"> natasharrison@gmail.com </a></p>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
+      <h1>Contact Natasha</h1>
+      <li><img src={location} width="5%" height="5%"></img>   Scottsdale, AZ</li>
+      <li> <img src={phone} width="5%" height="5%"></img>   520.245.1509 </li>
+      <li> <img src={email} width="5%" height="5%"></img>     
+      <a href="mailto://natasharrison@gmail.com"> natasharrison@gmail.com </a></li>
+      <li><a href="https://www.linkedin.com/in/natasharrison/">
+        <img src={linkedin} width="5%" height="5%"></img>    Linkedin</a></li>
+      <li><a href="https://github.com/natasharrison">
+        <img src={github} width="5%" height="5%"></img>    GitHub</a></li>
+      <li><a href="https://twitter.com/natasharrison">
+        <img src={twitter} width="5%" height="5%"></img>    Twitter</a></li>
     </section>
   );
 }

@@ -131,13 +131,11 @@ button:hover {
 .Footer a {
   text-decoration: none;
   color: #fff;
-  padding: 10px 10px;
-  margin: 20px 20px;
 }
 
 .Footer a:hover {
   background-color: var(--secondary-color);
-  border-radius: 15px;
+  border-radius: 20px;
   color: #fff;
   box-shadow: 5px 5px 10px var(--secondary-color);
 }
