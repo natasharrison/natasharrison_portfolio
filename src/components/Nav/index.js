@@ -15,7 +15,7 @@ function Nav() {
                     </a>
                 </li>
                 <li className="mx-2">
-                    <a href="#resume">
+                    <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:bd4507e2-7f9c-446d-af77-f032d186811f">
                         Resume
                     </a>
                 </li>
