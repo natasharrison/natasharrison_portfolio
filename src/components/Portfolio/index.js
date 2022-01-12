@@ -1,5 +1,4 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 import ProjectList from '../ProjectList';
 
 function Portfolio() {
@@ -13,8 +12,6 @@ function Portfolio() {
     
     return (
         <section>
-            <h1> Natasha </h1>
-            <p> description </p>
             <ProjectList />
         </section>
     );

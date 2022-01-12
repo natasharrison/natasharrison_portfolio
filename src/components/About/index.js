@@ -1,5 +1,4 @@
 import React from "react";
-import headshot from "../../assets/headshot/headshot.JPG";
 
 function About() {
   return (
@@ -7,35 +6,28 @@ function About() {
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-          <h1 className="Title">Meet Natasha </h1>
-          <span className="About-Content">
-            <p>
-              Natasha Harrison Murata holds a MBA from the University of
-              Arizona, where she also earned her bachelor’s degrees in Marketing
-              and Fine Arts. From 2010 until 2021, she has worked in the
-              Athletics Department at that same university. During her time
-              there, Natasha oversaw the department’s community outreach
-              initiatives and has coordinated multiple special events.
-            </p>
-            <p>
-              Natasha is now in the pursuit of a new career in Web Development.
-            </p>
-            <p>
-              {" "}
-              She lives in Phoenix, AZ with her husband, Dr. Joseph Murata, and
-              their two (fat) cats, Cocoa and Louis. She runs on coffee, lives
-              to travel, and enjoys quality time with family, friends and
-              nature.
-            </p>
-          </span>
+            <h1> Meet Natasha </h1>
+            <br></br>
+              <p>
+                Natasha Harrison Murata is a motivated lifelong learner. Following her passions and curiosity, she holds a MBA from the University of Arizona, where she also earned a Bachelor of Arts in Media Arts and a Bachelor of Science in Marketing with a Spanish minor.
+              </p>
+              <p>
+                Natasha had a 10 year career in collegiate athletics at the University of Arizona. During her time there, she oversaw the community outreach initiatives and has coordinated multiple special events.   
+              </p>
+              <p>
+                Natasha is now in the pursuit of a new career in Web
+                Development. She recently completed a Full-Stack Web Development Bootcamp where she was able to utilize her strengths of creative design, teamwork and problem solving. 
+              </p>
+              <p>
+                Originally from the bordertown of Nogales, AZ, Natasha now lives in Phoenix, AZ with her husband, Dr. Joseph Murata,
+                and their two (fat) cats, Cocoa and Louis. 
+                </p>
+                <p>
+                  She runs on coffee, lives to travel, and enjoys quality time with family, friends and nature.
+              </p>
           </div>
           <div class="col-md-5">
-          <img
-            src={headshot}
-            alt="profile of Natasha"
-            style={{ width: "15%" }}
-            className="Headshot"
-          />
+            <div className="Headshot"></div>
           </div>
         </div>
       </div>
