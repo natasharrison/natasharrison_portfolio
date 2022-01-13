@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/natasharrison_portfolio/static/css/main.d82c5078.chunk.css",
-    "main.js": "/natasharrison_portfolio/static/js/main.ca41e36a.chunk.js",
-    "main.js.map": "/natasharrison_portfolio/static/js/main.ca41e36a.chunk.js.map",
-    "runtime-main.js": "/natasharrison_portfolio/static/js/runtime-main.0ac44b27.js",
-    "runtime-main.js.map": "/natasharrison_portfolio/static/js/runtime-main.0ac44b27.js.map",
-    "static/js/2.aa051ce1.chunk.js": "/natasharrison_portfolio/static/js/2.aa051ce1.chunk.js",
-    "static/js/2.aa051ce1.chunk.js.map": "/natasharrison_portfolio/static/js/2.aa051ce1.chunk.js.map",
-    "static/js/3.899321e0.chunk.js": "/natasharrison_portfolio/static/js/3.899321e0.chunk.js",
-    "static/js/3.899321e0.chunk.js.map": "/natasharrison_portfolio/static/js/3.899321e0.chunk.js.map",
+    "main.css": "/natasharrison_portfolio/static/css/main.c12052f1.chunk.css",
+    "main.js": "/natasharrison_portfolio/static/js/main.434b5f25.chunk.js",
+    "main.js.map": "/natasharrison_portfolio/static/js/main.434b5f25.chunk.js.map",
+    "runtime-main.js": "/natasharrison_portfolio/static/js/runtime-main.20d398e6.js",
+    "runtime-main.js.map": "/natasharrison_portfolio/static/js/runtime-main.20d398e6.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/natasharrison_portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.be8d2eea.chunk.js": "/natasharrison_portfolio/static/js/2.be8d2eea.chunk.js",
+    "static/js/2.be8d2eea.chunk.js.map": "/natasharrison_portfolio/static/js/2.be8d2eea.chunk.js.map",
+    "static/js/3.1f328d40.chunk.js": "/natasharrison_portfolio/static/js/3.1f328d40.chunk.js",
+    "static/js/3.1f328d40.chunk.js.map": "/natasharrison_portfolio/static/js/3.1f328d40.chunk.js.map",
     "index.html": "/natasharrison_portfolio/index.html",
-    "static/css/main.d82c5078.chunk.css.map": "/natasharrison_portfolio/static/css/main.d82c5078.chunk.css.map",
-    "static/js/2.aa051ce1.chunk.js.LICENSE.txt": "/natasharrison_portfolio/static/js/2.aa051ce1.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/natasharrison_portfolio/static/media/cover-image.25d32ad9.jpg",
-    "static/media/headshot.c58d2cf2.JPG": "/natasharrison_portfolio/static/media/headshot.c58d2cf2.JPG",
-    "static/media/health-wealth200x200.7c6813c5.jpg": "/natasharrison_portfolio/static/media/health-wealth200x200.7c6813c5.jpg"
+    "static/css/2.0a9ec390.chunk.css.map": "/natasharrison_portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.c12052f1.chunk.css.map": "/natasharrison_portfolio/static/css/main.c12052f1.chunk.css.map",
+    "static/js/2.be8d2eea.chunk.js.LICENSE.txt": "/natasharrison_portfolio/static/js/2.be8d2eea.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/natasharrison_portfolio/static/media/headshot.c58d2cf2.JPG",
+    "static/media/email.134529a2.jpg": "/natasharrison_portfolio/static/media/email.134529a2.jpg",
+    "static/media/generatedate200x200.9843a2e2.jpg": "/natasharrison_portfolio/static/media/generatedate200x200.9843a2e2.jpg",
+    "static/media/github.7aad8ba8.jpg": "/natasharrison_portfolio/static/media/github.7aad8ba8.jpg",
+    "static/media/health-wealth200x200.7c6813c5.jpg": "/natasharrison_portfolio/static/media/health-wealth200x200.7c6813c5.jpg",
+    "static/media/linkedin.a6322710.jpg": "/natasharrison_portfolio/static/media/linkedin.a6322710.jpg",
+    "static/media/location.ab5cd2ab.jpg": "/natasharrison_portfolio/static/media/location.ab5cd2ab.jpg",
+    "static/media/phone.2e5760f3.jpg": "/natasharrison_portfolio/static/media/phone.2e5760f3.jpg",
+    "static/media/twitter.f3a7e57d.jpg": "/natasharrison_portfolio/static/media/twitter.f3a7e57d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ac44b27.js",
-    "static/js/2.aa051ce1.chunk.js",
-    "static/css/main.d82c5078.chunk.css",
-    "static/js/main.ca41e36a.chunk.js"
+    "static/js/runtime-main.20d398e6.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.be8d2eea.chunk.js",
+    "static/css/main.c12052f1.chunk.css",
+    "static/js/main.434b5f25.chunk.js"
   ]
 }
