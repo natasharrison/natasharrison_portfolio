@@ -11,16 +11,16 @@ function Contact() {
   return (
     <section className="Contact" id="contact">
       <h1>Contact Natasha</h1>
-      <li><img src={location} width="5%" height="5%"></img>   Scottsdale, AZ</li>
-      <li> <img src={phone} width="5%" height="5%"></img>   520.245.1509 </li>
-      <li> <img src={email} width="5%" height="5%"></img>     
-      <a href="mailto://natasharrison@gmail.com"> natasharrison@gmail.com </a></li>
+      <li><img src={location} width="5%" height="5%" alt="location pin icon"></img>   Scottsdale, AZ</li>
+      <li> <img src={phone} width="5%" height="5%" alt="phone icon"></img>   520.245.1509 </li>
+      <li> <img src={email} width="5%" height="5%" alt="envelope icon"></img>
+        <a href="mailto://natasharrison@gmail.com"> natasharrison@gmail.com </a></li>
       <li><a href="https://www.linkedin.com/in/natasharrison/">
-        <img src={linkedin} width="5%" height="5%"></img>    Linkedin</a></li>
+        <img src={linkedin} width="5%" height="5%" alt="person profile icon"></img>    Linkedin</a></li>
       <li><a href="https://github.com/natasharrison">
-        <img src={github} width="5%" height="5%"></img>    GitHub</a></li>
+        <img src={github} width="5%" height="5%" alt="cat icon to represent github"></img>    GitHub</a></li>
       <li><a href="https://twitter.com/natasharrison">
-        <img src={twitter} width="5%" height="5%"></img>    Twitter</a></li>
+        <img src={twitter} width="5%" height="5%" alt="bird icon to represent twitter"></img>    Twitter</a></li>
     </section>
   );
 }

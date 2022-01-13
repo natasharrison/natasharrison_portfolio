@@ -9,7 +9,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
   background-image: url("./assets/cover/cover-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -20,23 +19,24 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  background-size: cover;
-  background-position: 80%;
-  background-attachment: fixed;
-  z-index: 9999;
+  /* background-color: var(--primary-color); */
+  /* z-index: 9999; */
   font-size: 30px;
 }
 
 .Header {
   font-weight: bold;
   text-shadow: 4px 4px 8px #0d3827;
+  color: #ffff;
+  padding-top: 40px;
+  padding-left: 40px;
 }
 
 header nav a {
   text-decoration: none;
-  color: #fff;
+  color: #ffff;
   text-shadow: 4px 4px 8px #0d3827;
   padding: 0px 20px;
   margin: 30px;
@@ -73,9 +73,24 @@ li {
   border: 1px solid #bbbbbb;
 }
 
+.Portfolio {
+  /* color: #ffff; */
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Portfolio h1 {
+  color: #ffff;
+}
+
 .Contact {
   background-color: var(--secondary-color);
-  color: #fff;
+  color: #ffff;
   margin: 50px auto;
   padding: 30px;
   width: 40%;
