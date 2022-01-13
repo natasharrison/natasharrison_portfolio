@@ -11,8 +11,9 @@ function Portfolio() {
         <h1>Portfolio</h1>
         <div class="row">
 
+{/* Health Wealth */}
           <div class="col-md-4">
-            <Card border="dark"style={{textAlign: "center"}}>
+            <Card style={{textAlign: "center"}}>
               <Card.Img
                 variant="top"
                 src={healthwealth}
@@ -22,29 +23,27 @@ function Portfolio() {
                 <Card.Title> Health Wealth </Card.Title>
                 <p>
                   A web application that creates a community of well-being by
-                  allowing the user to earn points when they create and/or share healthy habits and goals.
+                  allowing the user to earn points as they create and share healthy habits and goals.
                 </p>
                 <p>
-                  Built using: React, GraphQL with a Node.js and Express.js
-                  Server, Bootstrap, MongoDB, Mongoose ODM, JW, Heroku
+                  <b>Built using</b>: React, GraphQL, Node.js, Express.js, Bootstrap, MongoDB, Mongoose ODM, JW, Heroku
                 </p>
-                <p>
-                  Creators: 
-                  <a href="https://github.com/natasharrison"> @natasharrison</a>
-                  <a href="https://github.com/Wsamuell"> @Wsamuell</a>
-                  <a href="https://github.com/eliassaunders"> @eliassaunders</a>
-                  <a href="https://github.com/EEzycade"> @EEzycade</a>
-                </p>
-                <p>
-                  <a href="https://healthwealth.herokuapp.com/"> Deployed Site</a> | 
-                  <a href="https://github.com/Wsamuell/health-wealth">GitHub</a>
-                </p>
-              </Card.Body>
+                  <b>Creators</b>:{" "}
+                  <Card.Link href="https://github.com/natasharrison"> @natasharrison </Card.Link>
+                  <Card.Link href="https://github.com/Wsamuell"> @Wsamuell </Card.Link>
+                  <Card.Link href="https://github.com/eliassaunders"> @eliassaunders </Card.Link>
+                  <Card.Link href="https://github.com/EEzycade"> @EEzycade </Card.Link>
+                </Card.Body>
+                <Card.Footer>
+                  <Card.Link href="https://healthwealth.herokuapp.com/">Deployed Site</Card.Link> 
+                  <Card.Link href="https://github.com/Wsamuell/health-wealth">GitHub</Card.Link>
+                </Card.Footer>
             </Card>
           </div>
 
+{/* Generate A Date */}
           <div class="col-md-4">
-            <Card border="dark" style={{textAlign: "center"}}>
+            <Card style={{textAlign: "center"}}>
             <Card.Img
               variant="top" src={generatedate} alt="generate a date website"/>
             <Card.Body>
@@ -55,30 +54,22 @@ function Portfolio() {
               decision-making out of date night.
             </p>
             <p>
-              Built using: HTML, CSS, CSS Framework Skeleton, JavaScript,
-              <a href="https://spoonacular.com/food-api">
-                spoonacular API
-              </a>,
-              <a href="https://www.thecocktaildb.com/api.php">
-                The Cocktail DB API
-              </a>
+              <b>Built using</b>: HTML, CSS, CSS Framework Skeleton, JavaScript,{" "}
+              <Card.Link href="https://spoonacular.com/food-api"> spoonacular API</Card.Link>,{" "}
+              <Card.Link href="https://www.thecocktaildb.com/api.php">The Cocktail DB API</Card.Link>
             </p>
-            <p>
-              Creators:
-              <a href="https://github.com/natasharrison"> @natasharrison</a>
-              <a href="https://github.com/Wsamuell"> @Wsamuell</a>
-            </p>
-            <p>
-              <a href="https://natasharrison.github.io/generate-date/">
-                Deployed Site
-              </a> |  
-              <a href="https://github.com/natasharrison/generate-date.git">GitHub
-              </a>
-            </p>
+              <b>Creators</b>:{" "}
+              <Card.Link href="https://github.com/natasharrison"> @natasharrison</Card.Link>
+              <Card.Link href="https://github.com/Wsamuell"> @Wsamuell</Card.Link>
             </Card.Body>
+            <Card.Footer>
+              <Card.Link href="https://natasharrison.github.io/generate-date/">Deployed Site</Card.Link>
+              <Card.Link href="https://github.com/natasharrison/generate-date.git">GitHub</Card.Link>
+            </Card.Footer>
             </Card>
           </div>
 
+{/* SheCodes Weather */}
           <div class="col-md-4">
             <Card border="darker" style={{textAlign: "center"}}>
               <Card.Img variant="top" src={weatherdashboard} alt="weather dashboard application"></Card.Img>
@@ -90,25 +81,19 @@ function Portfolio() {
               particular city or current location.
             </p>
             <p>
-              Built using: HTML, CSS, JavaScript, Bootstrap
-              <a href="https://openweathermap.org/api">OpenWeather API</a>
+              <b>Built using</b>: HTML, CSS, JavaScript, Bootstrap,{" "}
+              <Card.Link href="https://openweathermap.org/api"> OpenWeather API</Card.Link>
             </p>
-            <p>
-              Creator:
-              <a href="https://github.com/natasharrison">@natasharrison</a>
-            </p>
-            <p>
-              <a href="https://upbeat-goldberg-fb125c.netlify.app/">
-                Deployed Site (WIP)
-              </a>
-              |
-              <a href="https://github.com/natasharrison/shecodes-weather.git">
-                GitHub
-              </a>
-            </p>
+              <b>Creator</b>:{" "}
+              <Card.Link href="https://github.com/natasharrison">@natasharrison</Card.Link>
             </Card.Body>
+            <Card.Footer>
+              <Card.Link href="https://upbeat-goldberg-fb125c.netlify.app/"> Deployed Site (WIP)</Card.Link>
+              <Card.Link href="https://github.com/natasharrison/shecodes-weather.git">GitHub</Card.Link>
+            </Card.Footer>
             </Card>
           </div>
+
         </div>
       </div>
     </section>

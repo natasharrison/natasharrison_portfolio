@@ -12,6 +12,7 @@ body {
   background-image: url("./assets/cover/cover-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 header {
@@ -19,10 +20,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* position: sticky;
-  top: 0;
-  /* background-color: var(--primary-color); */
-  /* z-index: 9999; */
   font-size: 30px;
 }
 
@@ -62,6 +59,9 @@ li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #1f2b29;
 }
 
 .Headshot {
@@ -74,7 +74,6 @@ li {
 }
 
 .Portfolio {
-  /* color: #ffff; */
   width: 80%;
   margin: 30px auto;
   padding: 20px;
@@ -100,7 +99,7 @@ li {
   justify-content: space-between;
   border: 30px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px #0d3827;
+  box-shadow: 2px 2px 2px #1f2b29;
 }
 
 .Contact a {
@@ -150,7 +149,8 @@ button:hover {
 
 .Footer a:hover {
   background-color: var(--secondary-color);
-  border-radius: 20px;
+  border-radius: 5px;
+  padding: 2px;
   color: #fff;
   box-shadow: 5px 5px 10px var(--secondary-color);
 }
