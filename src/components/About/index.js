@@ -25,6 +25,13 @@ function About() {
                 <p>
                   She runs on coffee, lives to travel, and enjoys quality time with family, friends and nature.
               </p>
+              <p><b>
+                Technical Skills:</b>
+              </p>
+              <p> Project Management | Agile Methodologies </p> 
+              <p> HTML | CSS | JavaScript | Bootstrap | React | APIs | Git | GitHub | CodeSandbox | Heroku | Netlify | MongoDB | SQL | NoSQL | MySQL | jQuery | Node.js | Express.js | Responsive Design | Quality Assurance Training </p>
+              <p><b>Non-Technical Skills:</b></p>
+              <p>Spanish Proficient | Detail Oriented | Teamwork | Cross-Functional Leadership | Empathy | Optimism | Relationship Building </p>
           </div>
           <div class="col-md-5">
             <div className="Headshot"></div>

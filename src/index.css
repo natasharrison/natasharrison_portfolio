@@ -87,6 +87,11 @@ li {
   color: #ffff;
 }
 
+/* .Project-img {
+  height: auto;
+  width: auto;
+} */
+
 .Contact {
   background-color: var(--secondary-color);
   color: #ffff;

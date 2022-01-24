@@ -12,12 +12,13 @@ function Portfolio() {
         <div class="row">
 
 {/* Health Wealth */}
-          <div class="col-md-4">
-            <Card style={{textAlign: "center"}}>
+          <div class="col-sm-3 col-md-4">
+            <Card style={{textAlign: "center"}} h-100>
               <Card.Img
                 variant="top"
                 src={healthwealth}
                 alt="Health Wealth Application"
+                className="Project-img"
               />
               <Card.Body>
                 <Card.Title> Health Wealth </Card.Title>
@@ -42,10 +43,13 @@ function Portfolio() {
           </div>
 
 {/* Generate A Date */}
-          <div class="col-md-4">
-            <Card style={{textAlign: "center"}}>
+          <div class="col-sm-3 col-md-4">
+            <Card style={{textAlign: "center"}} h-100>
             <Card.Img
-              variant="top" src={generatedate} alt="generate a date website"/>
+              variant="top"
+              src={generatedate}
+              alt="generate a date website"
+            />
             <Card.Body>
               <Card.Title> Generate A Date </Card.Title>
             <p>
@@ -54,9 +58,9 @@ function Portfolio() {
               decision-making out of date night.
             </p>
             <p>
-              <b>Built using</b>: HTML, CSS, CSS Framework Skeleton, JavaScript,{" "}
-              <Card.Link href="https://spoonacular.com/food-api"> spoonacular API</Card.Link>,{" "}
-              <Card.Link href="https://www.thecocktaildb.com/api.php">The Cocktail DB API</Card.Link>
+              <b>Built using</b>: HTML, CSS, Skeleton, JavaScript,{" "}
+              <a href="https://spoonacular.com/food-api"> spoonacular API</a>,{" "}
+              <a href="https://www.thecocktaildb.com/api.php">The CocktailDB API</a>
             </p>
               <b>Creators</b>:{" "}
               <Card.Link href="https://github.com/natasharrison"> @natasharrison</Card.Link>
@@ -70,8 +74,8 @@ function Portfolio() {
           </div>
 
 {/* SheCodes Weather */}
-          <div class="col-md-4">
-            <Card border="darker" style={{textAlign: "center"}}>
+          <div class="col-sm-3 col-md-4">
+            <Card style={{textAlign: "center"}} h-100>
               <Card.Img variant="top" src={weatherdashboard} alt="weather dashboard application"></Card.Img>
             <Card.Body>
               <Card.Title> Weather Dashboard </Card.Title>
