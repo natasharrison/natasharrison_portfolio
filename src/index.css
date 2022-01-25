@@ -50,7 +50,7 @@ li {
 }
 
 .About {
-  background-color: var(--secondary-color);
+  background: rgba(33, 33 , 33, 0.8);
   color: #fff;
   margin: 30px auto;
   padding: 20px;
@@ -93,7 +93,7 @@ li {
 } */
 
 .Contact {
-  background-color: var(--secondary-color);
+  background: rgba(33, 33 , 33, 0.8);
   color: #ffff;
   margin: 50px auto;
   padding: 30px;

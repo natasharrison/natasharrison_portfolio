@@ -9,7 +9,7 @@ function About() {
             <h1> Meet Natasha </h1>
             <br></br>
               <p>
-                Natasha Harrison Murata is a motivated lifelong learner. Following her passions and curiosity, she holds a MBA from the University of Arizona, where she also earned a Bachelor of Arts in Media Arts and a Bachelor of Science in Marketing with a Spanish minor.
+                Natasha Harrison Murata is a motivated lifelong learner who leads with empathy. Following her passions and curiosity, she holds a MBA from the University of Arizona, where she also earned a Bachelor of Arts in Media Arts and a Bachelor of Science in Marketing with a Spanish minor.
               </p>
               <p>
                 Natasha had a 10 year career in collegiate athletics at the University of Arizona. During her time there, she oversaw the community outreach initiatives and has coordinated multiple special events.   
