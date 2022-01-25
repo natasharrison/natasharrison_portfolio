@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/natasharrison_portfolio/static/css/main.31cdbbee.chunk.css",
+    "main.css": "/natasharrison_portfolio/static/css/main.0af23e68.chunk.css",
     "main.js": "/natasharrison_portfolio/static/js/main.6788648c.chunk.js",
     "main.js.map": "/natasharrison_portfolio/static/js/main.6788648c.chunk.js.map",
     "runtime-main.js": "/natasharrison_portfolio/static/js/runtime-main.09333d8c.js",
@@ -12,7 +12,7 @@
     "static/js/3.71fa8827.chunk.js.map": "/natasharrison_portfolio/static/js/3.71fa8827.chunk.js.map",
     "index.html": "/natasharrison_portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/natasharrison_portfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.31cdbbee.chunk.css.map": "/natasharrison_portfolio/static/css/main.31cdbbee.chunk.css.map",
+    "static/css/main.0af23e68.chunk.css.map": "/natasharrison_portfolio/static/css/main.0af23e68.chunk.css.map",
     "static/js/2.2900c7af.chunk.js.LICENSE.txt": "/natasharrison_portfolio/static/js/2.2900c7af.chunk.js.LICENSE.txt",
     "static/media/index.css": "/natasharrison_portfolio/static/media/headshot.c58d2cf2.JPG",
     "static/media/email.134529a2.jpg": "/natasharrison_portfolio/static/media/email.134529a2.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.09333d8c.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.2900c7af.chunk.js",
-    "static/css/main.31cdbbee.chunk.css",
+    "static/css/main.0af23e68.chunk.css",
     "static/js/main.6788648c.chunk.js"
   ]
 }
